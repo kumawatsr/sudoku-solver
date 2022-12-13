@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=My+Soul&display=swap");
+
+.cell{
+    height: 50px;
+    width: 50px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid black;
+    transition: 0.4s;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.cell:hover{
+    background: rgb(152, 182, 238);
+    color: white;
+}
+
+.cell:focus{
+    background: rgb(152, 182, 238);
+    color: white;
+}

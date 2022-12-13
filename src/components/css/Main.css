@@ -1,0 +1,29 @@
+.main {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto ;
+
+}
+
+.btn {
+height: 100px;
+width: 140px;
+background: rgb(156, 183, 234);
+font-size: 1.5rem;
+font-weight: 600;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+transition: 0.4s;
+}
+
+.btn:hover {
+   background: cornflowerblue;
+}
+
+.btn:active {
+    background: rgb(156, 183, 234);
+    transform: scale(0.95);
+ }
